@@ -1,6 +1,7 @@
 Media Query
 @media only screen and (width: 357px){
-
+body{display: flex;
+flex-direction: column;}
  main{
 display: flex;
 flex-direction: column;
