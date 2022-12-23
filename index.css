@@ -1,0 +1,327 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+
+}
+
+.grid-1-wrapper {
+    grid-column: span 2;
+}
+
+.content-wrapper {
+    height: 22rem;
+
+}
+
+.form-wrapper form {
+    padding-left: 1rem;
+    padding-top: 1rem;
+    display: flex;
+    gap: .7rem;
+}
+
+.form-wrapper div input {
+    border: .5px solid hsl(243, 87%, 12%);
+    width: 250px;
+}
+
+.form-wrapper div .btn {
+    width: 150px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: hsl(224, 93%, 58%);
+    color: #fff;
+}
+.form-wrapper div .btn:hover{
+    opacity: .4;
+}
+.form-wrapper div input,
+.btn {
+    padding: .7rem;
+    height: 35px;
+}
+
+
+.grid-5-wrapper .grid-5 img {
+    padding-left: 8.5rem;
+    padding-top: 22rem;
+    width: 100%;
+}
+
+.flex-container-2 {
+    padding-top: 15rem;
+    padding-bottom: 13rem;
+    padding-left: 2rem;
+}
+
+.flex-container-2 .text-3 {
+    color: hsl(243, 87%, 12%);
+    color: hsl(170, 45%, 43%);
+    color: hsl(224, 93%, 58%);
+    color: hsl(240, 75%, 98%);
+    color: hsl(238, 22%, 44%);
+    width: 119%;
+    padding-top: 5rem;
+    padding-bottom: 1.5rem;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.text-4 p {
+    text-align: start;
+    color: hsl(0, 5%, 65%);
+    color: hsl(170, 45%, 43%);
+    color: hsl(243, 87%, 12%);
+    padding: .7rem 0;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.how-fylo-works {
+    display: flex;
+    gap: .4rem;
+    color: hsl(170, 45%, 43%);
+    width: 170px;
+    padding-top: 1rem;
+    padding-bottom: 4px;
+    border-bottom: 1px solid hsl(170, 45%, 43%);
+    cursor: pointer;
+
+}
+.how-fylo-works:hover{
+    opacity: .5;
+}
+.card-wrapper {
+    padding-top: 2.5rem;
+}
+
+.card {
+    position: absolute;
+    width: 36%;
+    padding: 2rem;
+    color: hsl(243, 87%, 12%);
+    font-weight: 200;
+    box-shadow: 1px 1px 2px 1px #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+
+
+}
+
+.card .card-text {
+    font-size: 1.3rem;
+}
+
+.card img {
+    padding-bottom: .5rem;
+}
+
+.card .testimonial {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-top: 1rem;
+    gap: .7rem;
+}
+
+.card .testimonial img {
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.testimonial div {
+    font-size: rem;
+}
+
+.testimonial div p {
+    line-height: 1.5rem;
+}
+
+.founder {
+    font-size: .73rem;
+    font-weight: 400;
+}
+
+.testimonial p span {
+    font-weight: 700;
+}
+
+
+.grid-6-wrapper {
+    grid-column: span 2;
+}
+
+.grid-7-wrapper {
+    grid-column: span 2;
+}
+
+.grid-1 nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.7rem;
+
+}
+
+.grid-1 nav ul {
+    display: flex;
+    list-style-type: none;
+
+}
+
+.grid-1 nav ul li a {
+    text-decoration: none;
+    padding: 1rem;
+    font-size: 1.3rem;
+    color: hsl(238, 22%, 44%);
+    font-weight: 400;
+}
+
+.grid-2 {
+    padding: 3rem 1rem;
+    height: 50vh;
+    font-size: 1.5rem;
+}
+
+.grid-2 .text-1 {
+    padding: 1rem;
+    color: hsl(243, 87%, 12%);
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.grid-2 .text-2 {
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+    font-weight: 400;
+    font-size: 1rem;
+    color: hsl(243, 87%, 12%);
+}
+
+.grid-3 {
+    padding: 1rem;
+}
+
+.grid-3 .illustration img {
+    padding: 1rem;
+    width: 70%
+}
+
+
+
+.get-access-section {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    padding: 4rem 2rem;
+    padding-top: 6rem;
+    margin-top: 6rem;
+    background-color: hsl(224, 93%, 58%);
+    background-color: hsl(170, 45%, 43%);
+    background-color: hsl(0, 0%, 75%);
+    background-color: hsl(238, 22%, 44%);
+
+}
+
+.get-access-section .text-wrapper {
+    text-align: start;
+    width: 50%;
+}
+
+.get-access-section .text-wrapper h1 {
+    font-size: 2.4rem;
+    text-align: start;
+    width: auto;
+}
+
+.get-access-section .text-wrapper div p {
+    font-size: 1.35rem;
+    padding: 1.5rem 0;
+    color: hsl(0, 0%, 75%);
+}
+
+.get-access-section .form-wrapper-2 {
+    display: flex;
+    justify-content: center;
+}
+
+.get-access-section .form-wrapper-2 form {
+    margin-right: 5rem;
+}
+
+.get-access-section .form-wrapper-2 form div {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 1rem;
+}
+
+.get-access-section .form-wrapper-2 form div input {
+    padding: .5rem;
+    width: 300px;
+}
+
+.get-access-section .form-wrapper-2 form div .btn {
+    cursor: pointer;
+    width: 155px;
+    border: none;
+    border-radius: 4px;
+    background-color: hsl(224, 93%, 58%);
+    color: #fff;
+}
+.get-access-section .form-wrapper-2 form div .btn:hover{
+    opacity: 0.5;
+}
+
+.footer-wrapper div {
+    padding: 10px 0;
+}
+
+.footer-wrapper footer nav li {
+    list-style-type: none;
+    text-decoration: none;
+    padding: 10px 0;cursor: pointer;
+}
+.footer-wrapper footer nav li:hover{
+    opacity: .5;
+}
+.footer-wrapper footer {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    color: hsl(0, 0%, 100%);
+    padding: 2rem;
+    background-color: hsl(243, 87%, 12%);
+}
+
+.footer-wrapper footer .logo-wrapper img {
+    width: 100%;
+    color: hsl(0, 0%, 100%);
+}
+
+.attribution-wrapper .attribution {
+    padding: 10px;
+    color: hsl(228, 45%, 44%);
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution-wrapper {
+    display: none;
+}
