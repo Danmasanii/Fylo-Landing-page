@@ -1,1 +1,9 @@
+Media Query
+@media only screen and (width: 357px){
 
+ main{
+display: flex;
+flex-direction: column;
+}
+
+}
