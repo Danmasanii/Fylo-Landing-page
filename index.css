@@ -8,7 +8,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 main{
-background: #eee;
+background#eee;
 }
 
 .grid-container {
@@ -59,7 +59,7 @@ background: #eee;
 .grid-5-wrapper .grid-5 img {
     padding-left: 8.5rem;
     padding-top: 22rem;
-    width: 100%;
+    width: 100vw;
 }
 
 .flex-container-2 {
@@ -220,7 +220,7 @@ background: #eee;
 
 .grid-3 .illustration img {
     padding: 1rem;
-    width: 70%
+    width: 70vw;
 }
 
 
