@@ -78,17 +78,6 @@ main .nav-wrapper .navbar {
     font-weight: 700;
 }
 
-.bg-img-wrapper {
-    background-color: #eee;
-    background-image: url(./images/bg-curve-mobile.svg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-position: fixed;
-    background-attachment: center;
-
-
-}
-
 .text-2,
 .card p {
     color: hsl(238, 22%, 44%);
