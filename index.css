@@ -14,8 +14,6 @@ main {
     height: 100%;
     padding-bottom: 1rem;
 }
-main .logo-wrapper{width:30px;
-}
 main .nav-wrapper .navbar {
     display: flex;
     align-items: center;
